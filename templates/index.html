@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudyMind AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+    <h2>📘 StudyMind</h2>
+    <button onclick="scrollToApp()">Open Dashboard</button>
+</header>
+
+<section class="hero">
+    <h1>Study smarter with <span>AI</span></h1>
+    <p>Personalized tutoring, notes, quizzes & planning</p>
+    <button onclick="scrollToApp()">Start Learning</button>
+</section>
+
+<section id="app" class="app-box">
+
+    <h2>AI Study Dashboard</h2>
+
+    <select id="mode">
+        <option value="chat">🤖 Chat Tutor</option>
+        <option value="notes">📄 Notes Generator</option>
+        <option value="quiz">🧠 Quiz Generator</option>
+        <option value="summarize">📚 Summarizer</option>
+        <option value="planner">📅 Study Planner</option>
+    </select>
+
+    <textarea id="input" placeholder="Enter your topic..."></textarea>
+
+    <button onclick="sendRequest()">Generate</button>
+
+    <div id="loading">⏳ Processing...</div>
+
+    <pre id="output"></pre>
+
+</section>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

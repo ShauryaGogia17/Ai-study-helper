@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f7f6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #1e3d2f;
+    color: white;
+}
+
+header button {
+    background: #4CAF50;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+}
+
+.hero span {
+    color: #4CAF50;
+}
+
+.hero button {
+    padding: 12px 20px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.app-box {
+    background: white;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#loading {
+    display: none;
+    color: green;
+}
+
+pre {
+    background: #eee;
+    padding: 15px;
+}
